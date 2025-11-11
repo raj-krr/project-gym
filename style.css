@@ -25,7 +25,22 @@
         section {
             padding: 5rem 2rem;
         }
-        
+    
+        .favicon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #000; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favicon img {
+  width: 60%;
+  height: 60%;
+}
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
